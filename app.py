@@ -6,17 +6,17 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 
 base_activity = {
-    'details': "Poopin' on da toilet",
-    'state' : 'Blaze',
+    'details': 'Custom details',
+    'state' : 'Custom state',
     'timestamps': {},
     'assets': {
-        'large_image': 'main_image',
-        'large_text': "Drop D'Turd",
-        'small_image': 'small_image',
-        'small_text': 'Its a me'
+        'large_image': 'image_name',
+        'large_text': 'Image text',
+        'small_image': 'small_image_name',
+        'small_text': 'Small image text'
     },
     'party': {
-        'size': [69, 420]
+        'size': [1, 5]
     }
 }
 
