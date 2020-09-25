@@ -27,31 +27,31 @@ This is how it will look -
 
 5. Paste the client ID in ``config.ini`` file.
    ```
-      [CLIENT]
-      client_id=759023045418680320
+   [CLIENT]
+   client_id=759023045418680320
    ```
       
-6. You can upload image assets under Rich Presence -> Art Assets.
+6. You can upload image assets under Rich Presence -> Art Assets. <br>
    <img src = "images/Four.jpg">
 
 7. Edit ``base_activity`` from ``app.py`` to your own custom text and images. Check Rich Presence -> Visualizer to see how the images work.
    ```python
-      base_activity = {
-         'details': 'Custom details',
-         'state' : 'Custom state',
-         'assets': {
-             'large_image': 'image_name',
-             'large_text': 'Image text',
-             'small_image': 'small_image_name',
-             'small_text': 'Small image text'
-         },
-         'party': {
-             'size': [1, 5]
-         }
+   base_activity = {
+      'details': 'Custom details',
+      'state' : 'Custom state',
+      'assets': {
+          'large_image': 'image_name',
+          'large_text': 'Image text',
+          'small_image': 'small_image_name',
+          'small_text': 'Small image text'
+      },
+      'party': {
+          'size': [1, 5]
       }
+   }
     ```
       
 8. Run the program
    ```bash
-      python app.py
+   python app.py
    ```
