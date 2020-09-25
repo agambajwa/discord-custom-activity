@@ -55,3 +55,9 @@ This is how it will look -
    ```bash
    python app.py
    ```
+   
+## Notes
+Read the [Wiki](https://github.com/k3rn31p4nic/discoIPC/wiki) for discoIPC to see the available classes and methods and know how to use them.
+
+## Acknowledgments
+Thanks to [k3rn31p4nic](https://github.com/k3rn31p4nic) for his [discoIPC](https://github.com/k3rn31p4nic/discoIPC) library.
