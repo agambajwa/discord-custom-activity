@@ -38,7 +38,7 @@ def main():
         client.disconnect()
 
 def set_activity():
-    """Set acitivty for the player."""
+    # Set acitivty for the player.
     activity = base_activity
     return activity
 
