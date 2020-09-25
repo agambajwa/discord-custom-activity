@@ -14,4 +14,4 @@ You need to create a new application with Discord.
 1. Go to [Discord Developer's](https://discord.com/developers/applications) site. 
 
 2. Click on New Application. 
-<img src="images/One.jpg">
+   <img src="images/One.jpg">
