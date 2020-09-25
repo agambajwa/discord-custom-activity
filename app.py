@@ -8,7 +8,6 @@ config.read('config.ini')
 base_activity = {
     'details': 'Custom details',
     'state' : 'Custom state',
-    'timestamps': {},
     'assets': {
         'large_image': 'image_name',
         'large_text': 'Image text',
@@ -41,7 +40,6 @@ def main():
 def set_activity():
     """Set acitivty for the player."""
     activity = base_activity
-    activity['timestamps']['start'] = time.time()
     return activity
 
 if __name__ == '__main__':
